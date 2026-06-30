@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  
+    <defs>
+      <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.1" fill="#d8ccbb" opacity="0.58"/>
+      </pattern>
+    </defs>
+    <rect width="1600" height="900" fill="#f4efe6"/>
+    <rect width="1600" height="900" fill="url(#dots)" opacity="0.68"/>
+    <path d="M 0 738 C 448.00000000000006 666, 927.9999999999999 828, 1600 702 L 1600 900 L 0 900 Z" fill="#efe7da" opacity="0.72"/>
+  
+  <rect x="64" y="60" width="1472" height="780" rx="12" fill="none" stroke="#d9cec0" stroke-width="2"/>
+  <text x="104" y="142" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#17803d">REFACTORING AUTOMATION SAFELY</text>
+  <text x="104" y="255" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="72" font-weight="920" fill="#171717">Shadow-Run, Then</text>
+<text x="104" y="328.44" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="72" font-weight="920" fill="#171717">Delete</text>
+  <text x="108" y="574" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="31" font-weight="650" fill="#69635d">The safest refactor proved parity</text>
+<text x="108" y="609.96" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="31" font-weight="650" fill="#69635d">before removing the obsolete worker.</text>
+  
+    <rect x="720" y="136" width="790" height="605" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+    <rect x="720" y="136" width="790" height="54" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="2"/>
+       <text x="744" y="171" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="700" fill="#69635d">cutover-notes</text>
+  <text x="752" y="226" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="21" font-weight="850" fill="#69635d">phase</text><text x="933.5" y="226" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="21" font-weight="850" fill="#69635d">old worker</text><text x="1115" y="226" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="21" font-weight="850" fill="#69635d">new projector</text><text x="1296.5" y="226" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="21" font-weight="850" fill="#69635d">decision</text><line x1="748" y1="249" x2="1482" y2="249" stroke="#d9cec0" stroke-width="2"/><text x="752" y="294" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">shadow</text><text x="933.5" y="294" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">runs</text><text x="1115" y="294" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">runs</text><text x="1296.5" y="294" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">compare</text><text x="752" y="362" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">cutover</text><text x="933.5" y="362" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">read-only</text><text x="1115" y="362" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">writes events</text><text x="1296.5" y="362" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">guard</text><text x="752" y="430" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">cleanup</text><text x="933.5" y="430" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">deleted</text><text x="1115" y="430" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#292524">source of truth</text><text x="1296.5" y="430" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="650" fill="#17803d">ship</text>
+  <text x="104" y="790" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="750" fill="#69635d">sanitized engineering artifact - Marwen Ben Khemis</text>
+</svg>

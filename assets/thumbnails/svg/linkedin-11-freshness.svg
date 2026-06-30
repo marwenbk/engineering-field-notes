@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  
+    <defs>
+      <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.1" fill="#d8ccbb" opacity="0.58"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="1200" fill="#f4efe6"/>
+    <rect width="1200" height="1200" fill="url(#dots)" opacity="0.68"/>
+    <path d="M 0 983.9999999999999 C 336.00000000000006 888, 696 1104, 1200 936 L 1200 1200 L 0 1200 Z" fill="#efe7da" opacity="0.72"/>
+  
+  <rect x="58" y="54" width="1084" height="1092" rx="14" fill="none" stroke="#d9cec0" stroke-width="2"/>
+  <text x="82" y="112" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="23" font-weight="850" fill="#17803d">FIELD NOTE 11 / DATA FRESHNESS</text>
+  <text x="82" y="210" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="62" font-weight="900" fill="#171717">A green chart still needs</text>
+<text x="82" y="273.24" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="62" font-weight="900" fill="#171717">a freshness envelope</text>
+  <text x="84" y="365" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29" font-weight="650" fill="#69635d">Operators need to know if the loop behind the chart is</text>
+<text x="84" y="398.06" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29" font-weight="650" fill="#69635d">alive.</text>
+  
+    <rect x="82" y="474" width="1036" height="590" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+    <rect x="82" y="474" width="1036" height="54" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="2"/>
+       <text x="106" y="509" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="700" fill="#69635d">loop-heartbeat</text>
+  <text x="116" y="569" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="23" font-weight="850" fill="#171717">api</text><rect x="434.24" y="539" width="180" height="36" rx="18" fill="#17803d" opacity="0.14"/><text x="456.24" y="563" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="850" fill="#17803d">green</text><text x="745.04" y="569" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="22" font-weight="650" fill="#292524">12 ms</text><text x="116" y="630" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="23" font-weight="850" fill="#171717">mirror</text><rect x="434.24" y="600" width="180" height="36" rx="18" fill="#b42318" opacity="0.14"/><text x="456.24" y="624" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="850" fill="#b42318">stale</text><text x="745.04" y="630" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="22" font-weight="650" fill="#292524">18 min</text><text x="116" y="691" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="23" font-weight="850" fill="#171717">scanner</text><rect x="434.24" y="661" width="180" height="36" rx="18" fill="#b45309" opacity="0.14"/><text x="456.24" y="685" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="850" fill="#b45309">recovering</text><text x="745.04" y="691" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="22" font-weight="650" fill="#292524">backoff</text><text x="116" y="752" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="23" font-weight="850" fill="#171717">exports</text><rect x="434.24" y="722" width="180" height="36" rx="18" fill="#b42318" opacity="0.14"/><text x="456.24" y="746" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="850" fill="#b42318">blocked</text><text x="745.04" y="752" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="22" font-weight="650" fill="#292524">review gate</text>
+  <text x="82" y="1110" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="750" fill="#69635d">synthetic artifact - no customer data - Marwen Ben Khemis</text>
+</svg>

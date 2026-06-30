@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  
+    <defs>
+      <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.1" fill="#d8ccbb" opacity="0.58"/>
+      </pattern>
+    </defs>
+    <rect width="1600" height="900" fill="#f4efe6"/>
+    <rect width="1600" height="900" fill="url(#dots)" opacity="0.68"/>
+    <path d="M 0 738 C 448.00000000000006 666, 927.9999999999999 828, 1600 702 L 1600 900 L 0 900 Z" fill="#efe7da" opacity="0.72"/>
+  
+  <rect x="64" y="60" width="1472" height="780" rx="12" fill="none" stroke="#d9cec0" stroke-width="2"/>
+  <text x="104" y="142" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#6d28d9">EDGE SYSTEMS</text>
+  <text x="104" y="255" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="920" fill="#171717">Offline POS Is</text>
+<text x="104" y="314.16" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="920" fill="#171717">Queue</text>
+<text x="104" y="373.32" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="920" fill="#171717">Ownership, Not</text>
+<text x="104" y="432.48" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="920" fill="#171717">Just Caching</text>
+  <text x="108" y="574" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="31" font-weight="650" fill="#69635d">Checkout resilience is a</text>
+<text x="108" y="609.96" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="31" font-weight="650" fill="#69635d">distributed-systems problem inside</text>
+<text x="108" y="645.92" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="31" font-weight="650" fill="#69635d">cashier UX.</text>
+  
+    <rect x="720" y="136" width="790" height="605" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+    <rect x="720" y="136" width="790" height="54" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="2"/>
+       <text x="744" y="171" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="700" fill="#69635d">sale-sync</text>
+  <rect x="758" y="258" width="154.5" height="145" rx="10" fill="#fbf3e6" stroke="#0f766e" stroke-width="3"/><text x="780" y="316" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">local sale</text><line x1="918.5" y1="330" x2="938.5" y2="330" stroke="#69635d" stroke-width="3"/><path d="M 928.5 320 L 940.5 330 L 928.5 340" fill="none" stroke="#69635d" stroke-width="3"/><rect x="944.5" y="258" width="154.5" height="145" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="3"/><text x="966.5" y="316" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">queued write</text><line x1="1105" y1="330" x2="1125" y2="330" stroke="#69635d" stroke-width="3"/><path d="M 1115 320 L 1127 330 L 1115 340" fill="none" stroke="#69635d" stroke-width="3"/><rect x="1131" y="258" width="154.5" height="145" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="3"/><text x="1153" y="316" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">sync ack</text><line x1="1291.5" y1="330" x2="1311.5" y2="330" stroke="#69635d" stroke-width="3"/><path d="M 1301.5 320 L 1313.5 330 L 1301.5 340" fill="none" stroke="#69635d" stroke-width="3"/><rect x="1317.5" y="258" width="154.5" height="145" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="3"/><text x="1339.5" y="316" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">receipt</text>
+<text x="1339.5" y="341.2" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">proof</text>
+  <text x="104" y="790" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="750" fill="#69635d">sanitized engineering artifact - Marwen Ben Khemis</text>
+</svg>

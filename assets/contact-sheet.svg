@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2172" height="3304" viewBox="0 0 2172 3304">
+  
+    <defs>
+      <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.1" fill="#d8ccbb" opacity="0.58"/>
+      </pattern>
+    </defs>
+    <rect width="2172" height="3304" fill="#f4efe6"/>
+    <rect width="2172" height="3304" fill="url(#dots)" opacity="0.68"/>
+    <path d="M 0 2709.2799999999997 C 608.1600000000001 2444.96, 1259.76 3039.6800000000003, 2172 2577.12 L 2172 3304 L 0 3304 Z" fill="#efe7da" opacity="0.72"/>
+  
+  <text x="58" y="52" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="900" fill="#171717">Artifact-first thumbnails v2</text>
+  <text x="58" y="84" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="650" fill="#69635d">synthetic snippets, real engineering shape, no private data</text>
+  
+      <g>
+        <rect x="58" y="98" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-01-ai-hot-path.png" x="111" y="116" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="88" y="541" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">The AI win was deleting AI from the hot...</text>
+        <text x="88" y="576" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">AI boundary</text>
+      </g>
+
+      <g>
+        <rect x="578" y="98" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-02-fallbacks.png" x="631" y="116" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="608" y="541" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Graceful fallback was hiding broken con...</text>
+        <text x="608" y="576" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Reliability</text>
+      </g>
+
+      <g>
+        <rect x="1098" y="98" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-03-hitl-contracts.png" x="1151" y="116" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1128" y="541" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Human review is a typed contract, not a...</text>
+        <text x="1128" y="576" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">HITL</text>
+      </g>
+
+      <g>
+        <rect x="1618" y="98" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-04-provider-migration.png" x="1671" y="116" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1648" y="541" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Provider migration ends when the old pa...</text>
+        <text x="1648" y="576" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">AI infrastructure</text>
+      </g>
+
+      <g>
+        <rect x="58" y="628" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-05-authority.png" x="111" y="646" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="88" y="1071" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Model confidence is not business truth</text>
+        <text x="88" y="1106" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Source precedence</text>
+      </g>
+
+      <g>
+        <rect x="578" y="628" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-06-events.png" x="631" y="646" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="608" y="1071" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Status columns are not an audit trail</text>
+        <text x="608" y="1106" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">State design</text>
+      </g>
+
+      <g>
+        <rect x="1098" y="628" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-07-shadow-delete.png" x="1151" y="646" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1128" y="1071" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Shadow-run first. Delete second.</text>
+        <text x="1128" y="1106" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Migration</text>
+      </g>
+
+      <g>
+        <rect x="1618" y="628" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-08-retry-graveyard.png" x="1671" y="646" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1648" y="1071" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">A retry counter became a failure machine</text>
+        <text x="1648" y="1106" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Workers</text>
+      </g>
+
+      <g>
+        <rect x="58" y="1158" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-09-domain-gates.png" x="111" y="1176" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="88" y="1601" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Bad automation needed a better gate</text>
+        <text x="88" y="1636" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Safe automation</text>
+      </g>
+
+      <g>
+        <rect x="578" y="1158" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-10-operator-workspace.png" x="631" y="1176" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="608" y="1601" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">The admin table became an operator work...</text>
+        <text x="608" y="1636" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Operational UX</text>
+      </g>
+
+      <g>
+        <rect x="1098" y="1158" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-11-freshness.png" x="1151" y="1176" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1128" y="1601" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">A green chart still needs a freshness e...</text>
+        <text x="1128" y="1636" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Data freshness</text>
+      </g>
+
+      <g>
+        <rect x="1618" y="1158" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-12-kpi-truth.png" x="1671" y="1176" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1648" y="1601" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">A KPI is wrong if scope is wrong</text>
+        <text x="1648" y="1636" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Metrics</text>
+      </g>
+
+      <g>
+        <rect x="58" y="1688" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-13-offline-queue.png" x="111" y="1706" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="88" y="2131" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Offline-first meant owning the queue</text>
+        <text x="88" y="2166" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Retail POS</text>
+      </g>
+
+      <g>
+        <rect x="578" y="1688" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-14-stale-auth.png" x="631" y="1706" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="608" y="2131" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Offline auth should degrade, not logout</text>
+        <text x="608" y="2166" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Resilience</text>
+      </g>
+
+      <g>
+        <rect x="1098" y="1688" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-15-hardware.png" x="1151" y="1706" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1128" y="2131" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Hardware support was protocol archaeology</text>
+        <text x="1128" y="2166" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Edge systems</text>
+      </g>
+
+      <g>
+        <rect x="1618" y="1688" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-16-sdk.png" x="1671" y="1706" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1648" y="2131" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Generated SDKs are product surface</text>
+        <text x="1648" y="2166" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">API contracts</text>
+      </g>
+
+      <g>
+        <rect x="58" y="2218" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-17-revert-wave.png" x="111" y="2236" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="88" y="2661" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Revert noise. Keep correctness.</text>
+        <text x="88" y="2696" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Engineering taste</text>
+      </g>
+
+      <g>
+        <rect x="578" y="2218" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/linkedin-18-domain-ci.png" x="631" y="2236" width="390" height="390" preserveAspectRatio="xMidYMid meet"/>
+        <text x="608" y="2661" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">CI got better when it encoded failure m...</text>
+        <text x="608" y="2696" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Quality</text>
+      </g>
+
+      <g>
+        <rect x="1098" y="2218" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/medium-01-model-extracts-system-decides.png" x="1136" y="2236" width="420" height="236" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1128" y="2661" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">The Model Extracts; the System Decides</text>
+        <text x="1128" y="2696" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">AI workflow architecture</text>
+      </g>
+
+      <g>
+        <rect x="1618" y="2218" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/medium-02-hitl-typed-contract.png" x="1656" y="2236" width="420" height="236" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1648" y="2661" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Human Review Is Not a Text Box</text>
+        <text x="1648" y="2696" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">HITL as a typed contract</text>
+      </g>
+
+      <g>
+        <rect x="58" y="2748" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/medium-03-shadow-run-delete.png" x="96" y="2766" width="420" height="236" preserveAspectRatio="xMidYMid meet"/>
+        <text x="88" y="3191" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Shadow-Run, Then Delete</text>
+        <text x="88" y="3226" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Refactoring automation safely</text>
+      </g>
+
+      <g>
+        <rect x="578" y="2748" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/medium-04-health-operation-alive.png" x="616" y="2766" width="420" height="236" preserveAspectRatio="xMidYMid meet"/>
+        <text x="608" y="3191" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">A Green API Ping Does Not Mean the Oper...</text>
+        <text x="608" y="3226" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Reliability beyond /health</text>
+      </g>
+
+      <g>
+        <rect x="1098" y="2748" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/medium-05-offline-pos-queue.png" x="1136" y="2766" width="420" height="236" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1128" y="3191" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">Offline POS Is Queue Ownership, Not Jus...</text>
+        <text x="1128" y="3226" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Edge systems</text>
+      </g>
+
+      <g>
+        <rect x="1618" y="2748" width="496" height="496" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+        <image href="png/medium-06-revert-wave.png" x="1656" y="2766" width="420" height="236" preserveAspectRatio="xMidYMid meet"/>
+        <text x="1648" y="3191" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="850" fill="#171717">The Revert Wave</text>
+        <text x="1648" y="3226" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="17" font-weight="750" fill="#69635d">Undoing cleanup without losing fixes</text>
+      </g>
+</svg>

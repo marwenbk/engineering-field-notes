@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  
+    <defs>
+      <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1.1" fill="#d8ccbb" opacity="0.58"/>
+      </pattern>
+    </defs>
+    <rect width="1600" height="900" fill="#f4efe6"/>
+    <rect width="1600" height="900" fill="url(#dots)" opacity="0.68"/>
+    <path d="M 0 738 C 448.00000000000006 666, 927.9999999999999 828, 1600 702 L 1600 900 L 0 900 Z" fill="#efe7da" opacity="0.72"/>
+  
+  <rect x="64" y="60" width="1472" height="780" rx="12" fill="none" stroke="#d9cec0" stroke-width="2"/>
+  <text x="104" y="142" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#1d4ed8">HITL AS A TYPED CONTRACT</text>
+  <text x="104" y="255" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="72" font-weight="920" fill="#171717">Human Review Is</text>
+<text x="104" y="328.44" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="72" font-weight="920" fill="#171717">Not a Text Box</text>
+  <text x="108" y="574" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="31" font-weight="650" fill="#69635d">The review step should create a</text>
+<text x="108" y="609.96" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="31" font-weight="650" fill="#69635d">durable payload that downstream</text>
+<text x="108" y="645.92" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="31" font-weight="650" fill="#69635d">systems can trust.</text>
+  
+    <rect x="720" y="136" width="790" height="605" rx="10" fill="#fffaf1" stroke="#d9cec0" stroke-width="2"/>
+    <rect x="720" y="136" width="790" height="54" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="2"/>
+       <text x="744" y="171" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="700" fill="#69635d">extract-confirm-process</text>
+  <rect x="758" y="258" width="117.2" height="145" rx="10" fill="#fbf3e6" stroke="#1d4ed8" stroke-width="3"/><text x="780" y="316" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">extract</text><line x1="881.2" y1="330" x2="901.2" y2="330" stroke="#69635d" stroke-width="3"/><path d="M 891.2 320 L 903.2 330 L 891.2 340" fill="none" stroke="#69635d" stroke-width="3"/><rect x="907.2" y="258" width="117.2" height="145" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="3"/><text x="929.2" y="316" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">confirm</text><line x1="1030.4" y1="330" x2="1050.4" y2="330" stroke="#69635d" stroke-width="3"/><path d="M 1040.4 320 L 1052.4 330 L 1040.4 340" fill="none" stroke="#69635d" stroke-width="3"/><rect x="1056.4" y="258" width="117.2" height="145" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="3"/><text x="1078.4" y="316" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">snapshot</text><line x1="1179.6000000000001" y1="330" x2="1199.6000000000001" y2="330" stroke="#69635d" stroke-width="3"/><path d="M 1189.6000000000001 320 L 1201.6000000000001 330 L 1189.6000000000001 340" fill="none" stroke="#69635d" stroke-width="3"/><rect x="1205.6" y="258" width="117.2" height="145" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="3"/><text x="1227.6" y="316" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">process</text><line x1="1328.8" y1="330" x2="1348.8" y2="330" stroke="#69635d" stroke-width="3"/><path d="M 1338.8 320 L 1350.8 330 L 1338.8 340" fill="none" stroke="#69635d" stroke-width="3"/><rect x="1354.8" y="258" width="117.2" height="145" rx="10" fill="#fbf3e6" stroke="#d9cec0" stroke-width="3"/><text x="1376.8" y="316" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="24" font-weight="850" fill="#171717">event</text>
+  <text x="104" y="790" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="750" fill="#69635d">sanitized engineering artifact - Marwen Ben Khemis</text>
+</svg>

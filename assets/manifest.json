@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-06-30T08:28:54.692Z",
+  "style": "v2 artifact-first thumbnails. Synthetic engineering evidence, sanitized snippets, no private screenshots or data.",
+  "linkedin": [
+    {
+      "id": "linkedin-01-ai-hot-path",
+      "title": "The AI win was deleting AI from the hot path",
+      "kicker": "AI boundary",
+      "svg": "svg/linkedin-01-ai-hot-path.svg",
+      "png": "png/linkedin-01-ai-hot-path.png"
+    },
+    {
+      "id": "linkedin-02-fallbacks",
+      "title": "Graceful fallback was hiding broken contracts",
+      "kicker": "Reliability",
+      "svg": "svg/linkedin-02-fallbacks.svg",
+      "png": "png/linkedin-02-fallbacks.png"
+    },
+    {
+      "id": "linkedin-03-hitl-contracts",
+      "title": "Human review is a typed contract, not a text box",
+      "kicker": "HITL",
+      "svg": "svg/linkedin-03-hitl-contracts.svg",
+      "png": "png/linkedin-03-hitl-contracts.png"
+    },
+    {
+      "id": "linkedin-04-provider-migration",
+      "title": "Provider migration ends when the old path is deleted",
+      "kicker": "AI infrastructure",
+      "svg": "svg/linkedin-04-provider-migration.svg",
+      "png": "png/linkedin-04-provider-migration.png"
+    },
+    {
+      "id": "linkedin-05-authority",
+      "title": "Model confidence is not business truth",
+      "kicker": "Source precedence",
+      "svg": "svg/linkedin-05-authority.svg",
+      "png": "png/linkedin-05-authority.png"
+    },
+    {
+      "id": "linkedin-06-events",
+      "title": "Status columns are not an audit trail",
+      "kicker": "State design",
+      "svg": "svg/linkedin-06-events.svg",
+      "png": "png/linkedin-06-events.png"
+    },
+    {
+      "id": "linkedin-07-shadow-delete",
+      "title": "Shadow-run first. Delete second.",
+      "kicker": "Migration",
+      "svg": "svg/linkedin-07-shadow-delete.svg",
+      "png": "png/linkedin-07-shadow-delete.png"
+    },
+    {
+      "id": "linkedin-08-retry-graveyard",
+      "title": "A retry counter became a failure machine",
+      "kicker": "Workers",
+      "svg": "svg/linkedin-08-retry-graveyard.svg",
+      "png": "png/linkedin-08-retry-graveyard.png"
+    },
+    {
+      "id": "linkedin-09-domain-gates",
+      "title": "Bad automation needed a better gate",
+      "kicker": "Safe automation",
+      "svg": "svg/linkedin-09-domain-gates.svg",
+      "png": "png/linkedin-09-domain-gates.png"
+    },
+    {
+      "id": "linkedin-10-operator-workspace",
+      "title": "The admin table became an operator workspace",
+      "kicker": "Operational UX",
+      "svg": "svg/linkedin-10-operator-workspace.svg",
+      "png": "png/linkedin-10-operator-workspace.png"
+    },
+    {
+      "id": "linkedin-11-freshness",
+      "title": "A green chart still needs a freshness envelope",
+      "kicker": "Data freshness",
+      "svg": "svg/linkedin-11-freshness.svg",
+      "png": "png/linkedin-11-freshness.png"
+    },
+    {
+      "id": "linkedin-12-kpi-truth",
+      "title": "A KPI is wrong if scope is wrong",
+      "kicker": "Metrics",
+      "svg": "svg/linkedin-12-kpi-truth.svg",
+      "png": "png/linkedin-12-kpi-truth.png"
+    },
+    {
+      "id": "linkedin-13-offline-queue",
+      "title": "Offline-first meant owning the queue",
+      "kicker": "Retail POS",
+      "svg": "svg/linkedin-13-offline-queue.svg",
+      "png": "png/linkedin-13-offline-queue.png"
+    },
+    {
+      "id": "linkedin-14-stale-auth",
+      "title": "Offline auth should degrade, not logout",
+      "kicker": "Resilience",
+      "svg": "svg/linkedin-14-stale-auth.svg",
+      "png": "png/linkedin-14-stale-auth.png"
+    },
+    {
+      "id": "linkedin-15-hardware",
+      "title": "Hardware support was protocol archaeology",
+      "kicker": "Edge systems",
+      "svg": "svg/linkedin-15-hardware.svg",
+      "png": "png/linkedin-15-hardware.png"
+    },
+    {
+      "id": "linkedin-16-sdk",
+      "title": "Generated SDKs are product surface",
+      "kicker": "API contracts",
+      "svg": "svg/linkedin-16-sdk.svg",
+      "png": "png/linkedin-16-sdk.png"
+    },
+    {
+      "id": "linkedin-17-revert-wave",
+      "title": "Revert noise. Keep correctness.",
+      "kicker": "Engineering taste",
+      "svg": "svg/linkedin-17-revert-wave.svg",
+      "png": "png/linkedin-17-revert-wave.png"
+    },
+    {
+      "id": "linkedin-18-domain-ci",
+      "title": "CI got better when it encoded failure modes",
+      "kicker": "Quality",
+      "svg": "svg/linkedin-18-domain-ci.svg",
+      "png": "png/linkedin-18-domain-ci.png"
+    }
+  ],
+  "medium": [
+    {
+      "id": "medium-01-model-extracts-system-decides",
+      "title": "The Model Extracts; the System Decides",
+      "kicker": "AI workflow architecture",
+      "svg": "svg/medium-01-model-extracts-system-decides.svg",
+      "png": "png/medium-01-model-extracts-system-decides.png"
+    },
+    {
+      "id": "medium-02-hitl-typed-contract",
+      "title": "Human Review Is Not a Text Box",
+      "kicker": "HITL as a typed contract",
+      "svg": "svg/medium-02-hitl-typed-contract.svg",
+      "png": "png/medium-02-hitl-typed-contract.png"
+    },
+    {
+      "id": "medium-03-shadow-run-delete",
+      "title": "Shadow-Run, Then Delete",
+      "kicker": "Refactoring automation safely",
+      "svg": "svg/medium-03-shadow-run-delete.svg",
+      "png": "png/medium-03-shadow-run-delete.png"
+    },
+    {
+      "id": "medium-04-health-operation-alive",
+      "title": "A Green API Ping Does Not Mean the Operation Is Alive",
+      "kicker": "Reliability beyond /health",
+      "svg": "svg/medium-04-health-operation-alive.svg",
+      "png": "png/medium-04-health-operation-alive.png"
+    },
+    {
+      "id": "medium-05-offline-pos-queue",
+      "title": "Offline POS Is Queue Ownership, Not Just Caching",
+      "kicker": "Edge systems",
+      "svg": "svg/medium-05-offline-pos-queue.svg",
+      "png": "png/medium-05-offline-pos-queue.png"
+    },
+    {
+      "id": "medium-06-revert-wave",
+      "title": "The Revert Wave",
+      "kicker": "Undoing cleanup without losing fixes",
+      "svg": "svg/medium-06-revert-wave.svg",
+      "png": "png/medium-06-revert-wave.png"
+    }
+  ]
+}
