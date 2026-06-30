@@ -1,8 +1,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const outDir = new URL(".", import.meta.url).pathname;
-const svgDir = join(outDir, "svg");
+const repoRoot = dirname(dirname(fileURLToPath(import.meta.url)));
+const assetsDir = join(repoRoot, "assets");
+const svgDir = join(assetsDir, "thumbnails", "svg");
 
 mkdirSync(svgDir, { recursive: true });
 
@@ -323,6 +325,23 @@ const linkedin = [
       ],
     },
   },
+  {
+    id: "linkedin-19-role-centered-ux",
+    topic: "Role-centered UX",
+    title: "User-centered UX is not enough for big systems",
+    note: "The role is the real design unit: responsibility, risk, permissions, next action.",
+    artifact: {
+      kind: "roleMap",
+      filename: "role-map.md",
+      headers: ["role", "needs to see", "can act on"],
+      rows: [
+        ["cashier", "sale state", "checkout"],
+        ["operator", "blocked work", "review"],
+        ["manager", "fresh KPIs", "prioritize"],
+        ["auditor", "event trail", "verify"],
+      ],
+    },
+  },
 ];
 
 const medium = [
@@ -410,6 +429,23 @@ const medium = [
         ["noise", "broad cleanup", "revert"],
         ["correctness", "money, auth, SDK", "keep"],
         ["process", "weak quality gates", "rewrite"],
+      ],
+    },
+  },
+  {
+    id: "medium-07-role-centered-ux",
+    topic: "Role-centered UX",
+    title: "Role-Centered UX",
+    note: "Large operational interfaces should be designed around responsibility, not a generic user.",
+    artifact: {
+      kind: "roleMap",
+      filename: "role-centered-interface",
+      headers: ["role", "surface", "risk"],
+      rows: [
+        ["cashier", "current sale", "slow checkout"],
+        ["operator", "exceptions", "wrong approval"],
+        ["manager", "workload + KPIs", "bad priority"],
+        ["auditor", "events + evidence", "missing trail"],
       ],
     },
   },
@@ -697,6 +733,7 @@ function artifact(a, x, y, w, h) {
     case "ci": return renderCi(a, x, y, w, h);
     case "matrix":
     case "matrixWide": return renderMatrix(a, x, y, w, h);
+    case "roleMap": return renderTable(a, x, y, w, h);
     case "apiWide":
     case "offlineWide": return renderWideSteps(a, x, y, w, h, a.kind === "offlineWide" ? colors.teal : colors.blue);
     default: return renderCode({ filename: a.filename || "note", lines: ["artifact missing"] }, x, y, w, h);
@@ -744,7 +781,7 @@ function mediumFrame(item, index) {
   const artH = 605;
   const longTitle = item.title.length > 42;
   const titleSize = longTitle ? 58 : 72;
-  const titleChars = longTitle ? 14 : 17;
+  const titleChars = item.id === "medium-07-role-centered-ux" ? 12 : longTitle ? 14 : 17;
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
   ${bg(width, height)}
@@ -770,8 +807,8 @@ writeSet(medium, "medium");
 const manifest = {
   generatedAt: new Date().toISOString(),
   style: "v2 artifact-first thumbnails. Synthetic engineering evidence, sanitized snippets, no private screenshots or data.",
-  linkedin: linkedin.map(({ id, title, topic }) => ({ id, title, kicker: topic, svg: `svg/${id}.svg`, png: `png/${id}.png` })),
-  medium: medium.map(({ id, title, topic }) => ({ id, title, kicker: topic, svg: `svg/${id}.svg`, png: `png/${id}.png` })),
+  linkedin: linkedin.map(({ id, title, topic }) => ({ id, title, kicker: topic, svg: `thumbnails/svg/${id}.svg`, png: `thumbnails/png/${id}.png` })),
+  medium: medium.map(({ id, title, topic }) => ({ id, title, kicker: topic, svg: `thumbnails/svg/${id}.svg`, png: `thumbnails/png/${id}.png` })),
 };
 
 function contactSheetSvg() {
@@ -812,7 +849,7 @@ function contactSheetSvg() {
 </svg>`;
 }
 
-writeFileSync(join(outDir, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
-writeFileSync(join(outDir, "contact-sheet.svg"), contactSheetSvg());
+writeFileSync(join(assetsDir, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
+writeFileSync(join(assetsDir, "contact-sheet.svg"), contactSheetSvg());
 
 console.log(`Generated ${linkedin.length + medium.length} v2 SVG thumbnails in ${svgDir}`);

@@ -84,3 +84,16 @@ Outline:
 
 Thumbnail: `assets/thumbnails/png/medium-06-revert-wave.png`
 
+## 7. Role-Centered UX
+
+Thesis: user-centered design is useful, but in large operational systems the role is the real design unit.
+
+Outline:
+
+1. Why "the user" becomes too vague in big systems.
+2. How roles change what the interface should show, hide, enable, warn about, and block.
+3. The difference between a generic dashboard and a role-specific workspace.
+4. Designing by responsibility: cashier, operator, manager, auditor, admin.
+5. How role-centered UX connects product design with permissions, workflow state, auditability, and reliability.
+
+Thumbnail: `assets/thumbnails/png/medium-07-role-centered-ux.png`

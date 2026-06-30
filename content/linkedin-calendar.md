@@ -25,3 +25,8 @@ The goal is to build a public signal around engineering judgment: practical AI b
 | 6 | 17 | The mature move was reverting broad quality-gate churn and keeping the real fixes. | Revert-wave judgment | `assets/thumbnails/png/linkedin-17-revert-wave.png` |
 | 6 | 18 | CI got better when we stopped collecting badges and started encoding domain failures. | Domain CI gates | `assets/thumbnails/png/linkedin-18-domain-ci.png` |
 
+## Bonus Topic
+
+| Post | Hook | Topic | Thumbnail |
+|---:|---|---|---|
+| 19 | User-centered UX is not enough for big systems. | Role-centered UX | `assets/thumbnails/png/linkedin-19-role-centered-ux.png` |
