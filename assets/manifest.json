@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T08:55:22.042Z",
+  "generatedAt": "2026-07-01T10:27:47.276Z",
   "style": "v2 artifact-first thumbnails. Synthetic engineering evidence, sanitized snippets, no private screenshots or data.",
   "linkedin": [
     {
@@ -134,6 +134,13 @@
       "kicker": "Role-centered UX",
       "svg": "thumbnails/svg/linkedin-19-role-centered-ux.svg",
       "png": "thumbnails/png/linkedin-19-role-centered-ux.png"
+    },
+    {
+      "id": "linkedin-20-hiring-integrity",
+      "title": "Only the honest can learn",
+      "kicker": "Hiring signal",
+      "svg": "thumbnails/svg/linkedin-20-hiring-integrity.svg",
+      "png": "thumbnails/png/linkedin-20-hiring-integrity.png"
     }
   ],
   "medium": [

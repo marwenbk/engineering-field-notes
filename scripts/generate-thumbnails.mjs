@@ -342,6 +342,23 @@ const linkedin = [
       ],
     },
   },
+  {
+    id: "linkedin-20-hiring-integrity",
+    topic: "Hiring signal",
+    title: "Only the honest can learn",
+    note: "The artifact and the interview both revealed judgment under pressure.",
+    artifact: {
+      kind: "matrix",
+      filename: "interview-signals.md",
+      headers: ["signal", "decision"],
+      rows: [
+        ["blue-on-blue resume", "reject"],
+        ["fake certainty", "reject"],
+        ["AI proxy answer", "reject"],
+        ['"I don\'t know"', "hire"],
+      ],
+    },
+  },
 ];
 
 const medium = [

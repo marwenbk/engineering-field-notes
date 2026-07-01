@@ -30,3 +30,4 @@ The goal is to build a public signal around engineering judgment: practical AI b
 | Post | Hook | Topic | Thumbnail |
 |---:|---|---|---|
 | 19 | User-centered UX is not enough for big systems. | Role-centered UX | `assets/thumbnails/png/linkedin-19-role-centered-ux.png` |
+| 20 | Only the honest can learn. | Hiring integrity | `assets/thumbnails/png/linkedin-20-hiring-integrity.png` |
