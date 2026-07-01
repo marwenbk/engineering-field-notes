@@ -1,38 +1,37 @@
-# LinkedIn Draft 03: Human Review Is Not A Text Box
+# LinkedIn Draft 03: Human Review Needs State
 
-Human review is not a text box.
+"Human review" can become a very thin feature.
 
-It is a contract boundary.
+The model gives an answer.
 
-The weak version of human-in-the-loop is:
+The UI asks someone to review.
 
-> Here is model output. Please review it.
+Someone clicks approve, maybe leaves a comment, and the workflow moves on.
 
-That sounds reasonable, but it often produces vague approval. The downstream system still has to guess what was confirmed, where it came from, and whether it can be used for an irreversible action.
+Then the system still cannot answer the useful questions.
 
-The stronger version is:
+Which field came from the model?
 
-```json
-{
-  "confirmedBy": "operator",
-  "fields": {
-    "amount": { "value": "123.450", "source": "review" },
-    "office": { "value": "A1", "source": "system" }
-  }
-}
-```
+Which field did the operator change?
 
-Now the operator action creates a typed snapshot.
+Who confirmed it?
 
-The system can audit it.
+Can this value be exported?
 
-Rules can consume it.
+What evidence was present at the time?
 
-Exports can be blocked when required evidence is missing.
+The review step has to create something the rest of the system can trust.
 
-The important product detail is that review should not be a loose comment layered on top of AI output. It should become structured state that every later step can trust or reject.
+For me that means a typed snapshot: source, actor, timestamp, confirmed fields, and enough structure for rules to accept or block the next action.
 
-That is where HITL becomes engineering, not just UX.
+Once review creates state, the rest of the workflow gets simpler.
+
+The audit log makes sense.
+
+Exports have a clear gate.
+
+Operators stop being asked to decorate AI output with comments.
+
+They become the part of the system that turns a proposal into accountable state.
 
 Thumbnail: `assets/thumbnails/png/linkedin-03-hitl-contracts.png`
-

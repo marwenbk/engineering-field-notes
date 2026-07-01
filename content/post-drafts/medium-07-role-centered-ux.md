@@ -1,84 +1,48 @@
-# Role-Centered UX
+# Role-centered UX
 
-User-centered design is useful, but it is not enough for large operational systems.
+I keep thinking about a UI mistake I have made before: designing for "the user."
 
-The phrase "the user" works when the product has one dominant workflow. It breaks down when the same system is used by cashiers, operators, managers, admins, auditors, support staff, and owners.
+That phrase is useful until the product gets real.
 
-Those people do not just have different preferences.
+In a small app, maybe one person does most of the work. In an operational system, the same screen can be touched by a cashier, an operator, a manager, an admin, an auditor, support, and sometimes the owner who just wants to know why today feels broken.
 
-They have different responsibilities.
+They are all users.
 
-They can create different failures.
+That label hides the important part.
 
-They need different information at different moments.
+Each role carries a different kind of responsibility.
 
-That is why the role is often the real design unit.
+A cashier needs speed and confidence. The customer is standing there. The UI has to keep the sale moving, even when the network is annoying or a peripheral decides to be dramatic.
 
-## From User-Centered To Role-Centered
+An operator needs blocked work, evidence, and safe actions. They need to know why a record is stuck, what changed, and what they are allowed to confirm.
 
-User-centered UX asks:
+A manager needs workload, freshness, and priority. A pretty number with stale data can push the wrong decision.
 
-> What does the user need?
+An auditor needs the trail. Who did what, when, from which evidence, under which state. A dashboard is decoration if it cannot answer that.
 
-Role-centered UX asks:
+Once you design from the role, the questions get sharper:
 
-> What does this role need to see, decide, change, ignore, escalate, and prove?
+- What is this person responsible for right now?
+- What can they accidentally damage?
+- Which action should be obvious?
+- Which action should disappear?
+- Which state needs a warning instead of a badge?
+- What evidence will this role need later?
 
-That shift matters because operational interfaces are not only about comfort. They are about responsibility and risk.
+This is where UI work becomes system design.
 
-| Role | Surface | Risk |
-|---|---|---|
-| Cashier | current sale | slow checkout |
-| Operator | exceptions | wrong approval |
-| Manager | workload and KPIs | bad priority |
-| Auditor | events and evidence | missing trail |
+A role-centered workspace forces decisions that a generic dashboard can avoid. Permissions become part of the layout. Event logs become part of trust. Freshness becomes part of the number. Background jobs become something the user can reason about.
 
-The same database row can mean different things to different roles.
+The cashier should not think about replay queues.
 
-For a cashier, it may be noise.
+The operator should not guess whether a value is authoritative.
 
-For an operator, it may be the next action.
+The manager should not plan from stale metrics.
 
-For a manager, it may be workload signal.
+The auditor should not reconstruct history from screenshots and luck.
 
-For an auditor, it may be evidence.
+That is the bar I care about now.
 
-## A Dashboard Is Not A Workspace
-
-Many internal products start as dashboards because dashboards are easy to build.
-
-Tables, filters, cards, charts.
-
-But operational work usually needs a workspace, not a dashboard.
-
-A workspace should answer:
-
-- what is blocked?
-- why is it blocked?
-- who can unblock it?
-- what changed since last time?
-- is the data fresh?
-- what is the safest next action?
-- what should this role not be allowed to do?
-
-This connects UI/UX to permissions, state machines, event logs, background jobs, data freshness, and auditability.
-
-The design work is not only visual.
-
-It is domain modeling.
-
-## The Practical Rule
-
-Do not design one interface for "the user."
-
-Design surfaces around roles:
-
-- what they are responsible for
-- what they are allowed to change
-- what failure they can create
-- what evidence they need
-- what next action the system should make obvious
-
-That is how a generic admin screen becomes an operational workspace.
+A good interface gives each role the smallest surface that still lets them do the work safely.
 
 Thumbnail: `assets/thumbnails/png/medium-07-role-centered-ux.png`

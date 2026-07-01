@@ -1,33 +1,40 @@
-# LinkedIn Draft 01: Deleting AI From The Hot Path
+# LinkedIn Draft 01: Delete AI From The Boring Path
 
-The best AI extraction win was deleting AI from the hot path.
+I like AI more after I remove it from a workflow.
 
-That sounds anti-AI, but it was the opposite.
+Weird sentence, but it keeps happening.
 
-In a private logistics automation workflow, one document path looked like an extraction problem. The first version treated it like one: send the text to a model, parse loose output, normalize the result, and hope the downstream contract was still valid.
+In one document flow, I started with the usual version:
 
-But part of the input was already structured enough.
+- send text to a model
+- ask for fields
+- normalize the loose answer
+- let the workflow continue
 
-So the better version did something less impressive and more useful:
+Some of the document was messy.
 
-```ts
-- const fields = await llm.extract(document);
-- return normalizeLooseJson(fields);
-+ const rows = parseCarrierTable(document.text);
-+ return mapRowsToConfirmedFields(rows);
-```
+Some of it was already structured enough.
 
-The model stayed useful where ambiguity lived.
+I had put both parts through the same model-shaped pipe because it was convenient.
 
-Deterministic code took over where the input already had structure.
+The better version was less magical:
 
-The result was easier to debug, cheaper to run, and safer to review because the system stopped pretending every field needed probabilistic perception.
+parse the parts the system can already understand,
 
-The lesson I keep coming back to:
+use the model only where the input is actually ambiguous,
 
-Use AI to read messy reality.
+then make the reviewed snapshot the thing the rest of the workflow trusts.
 
-Use deterministic systems to decide what becomes business truth.
+It cost less.
+
+More importantly, it gave me places to inspect when a value looked wrong.
+
+When a value looked wrong, I could inspect a parser, a mapping, or a review state. I was not negotiating with a blob of model output.
+
+That lesson stuck.
+
+AI is great at reading messy reality.
+
+Business truth deserves a stricter owner.
 
 Thumbnail: `assets/thumbnails/png/linkedin-01-ai-hot-path.png`
-

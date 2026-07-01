@@ -1,42 +1,53 @@
-# The Model Extracts; the System Decides
+# The model reads. The system decides.
 
-Reliable AI automation does not come from trusting the model harder.
+The first version of an AI workflow usually feels simple.
 
-It comes from separating two responsibilities:
+Send the document to a model. Ask for the fields. Parse the answer. Move on.
 
-1. probabilistic perception
-2. deterministic authority
+Then the first real edge case arrives.
 
-Models are useful at reading messy inputs: documents, tables, emails, inconsistent wording, visual layouts, and human language. But reading a field is not the same thing as deciding that the field is business truth.
+The document says one thing. The database says another. The operator fixes a value. A rule blocks the export. Someone asks why the system made that decision.
 
-In operational software, truth usually belongs somewhere else:
+At that moment, model confidence is a terrible answer.
 
-| Field type | Good reader | Good authority |
-|---|---|---|
-| messy document text | model or parser | reviewed snapshot |
-| identity or ownership | document | system of record |
-| exportability | rules | event gate |
-| final workflow state | application logic | append-only event log |
+I learned this while working on operational workflows where a wrong field can create real downstream work. The model was useful. It could read messy text, weird layouts, scanned documents, inconsistent labels, all the stuff that makes deterministic parsing painful.
 
-That boundary changes how the system is designed.
+But reading a value and owning the truth are different jobs.
 
-The model can propose. The operator can confirm. The rules can block. The event log can explain.
+The split I trust now is simple:
 
-The most useful architecture pattern is not "AI agent does the workflow."
+- the model extracts
+- the parser normalizes
+- the operator confirms
+- rules decide whether the next action is allowed
+- events explain what happened
 
-It is:
+That architecture is boring on purpose.
 
-```txt
-extract -> confirm -> snapshot -> process -> event
-```
+It is much easier to debug at 2 AM.
 
-The system becomes easier to debug because each boundary has a job. It becomes safer because irreversible actions depend on typed evidence, not model confidence. It becomes cheaper because deterministic parsing can replace model calls where the input is already structured.
+When the model is only responsible for perception, you can inspect its output without pretending it has business authority. When the reviewed snapshot owns the confirmed value, the rest of the system has something typed and stable to depend on. When an event is emitted after each meaningful step, you have a trail instead of a mystery.
 
-The practical rule:
+The best improvement I made in this kind of system was removing the model from places where the input was already structured enough.
 
-Use AI where ambiguity lives.
+Some fields needed a parser.
 
-Use deterministic systems where authority exists.
+Some fields needed a lookup.
+
+Some fields needed human confirmation.
+
+Only a smaller part needed the model.
+
+That change made the workflow cheaper.
+
+It also made failures easier to name.
+
+A failed parser, a blocked rule, and a missing confirmation all fail in different ways. The operator can see the difference. The code can see the difference. The audit trail can explain the difference later.
+
+I still like AI in these systems.
+
+I just prefer giving it the job it is actually good at: reading messy reality and proposing a shape.
+
+The product still needs ordinary software to decide what can safely happen next.
 
 Thumbnail: `assets/thumbnails/png/medium-01-model-extracts-system-decides.png`
-

@@ -1,35 +1,29 @@
-# LinkedIn Draft 02: Graceful Failure Can Hide Broken Contracts
+# LinkedIn Draft 02: Graceful Failure Can Be Too Polite
 
-The most dangerous code in production was the code that made failures look graceful.
+I am suspicious of very polite fallbacks.
 
-Fallbacks often start with good intent:
+The kind where the UI stays green, the workflow keeps moving, and the system quietly lowers the quality of the state.
 
-- keep the workflow moving
-- avoid blocking the operator
-- recover from partial model output
-- tolerate upstream weirdness
+That kind of "graceful" can become expensive.
 
-But a fallback is only safe if the degraded state is explicit, observable, and harmless.
+I saw this in an automation flow where a fallback kept a record alive after a weak extraction. No loud error. No broken screen. Everyone could keep clicking.
 
-In one private automation workflow, a fallback path made the system look healthier than it was. The UI stayed green. The downstream process received a weaker state. The real contract break was hidden until much later.
+Downstream, the record had less authority than the rest of the product believed.
 
-The fix was not to add another fallback.
+A crash would have been easier to understand.
 
-The fix was to remove the path that pretended partial authority was enough.
+The fix was to make degraded state visible:
 
-The system became more reliable when it started saying:
+- this value came from a weak source
+- this action needs review
+- this export is blocked until confirmation exists
 
-```txt
-EXPLICIT_DEGRADED_STATE
-block irreversible action
-require review
-```
+It made the product feel less smooth for a moment.
 
-That is less smooth.
+Good.
 
-It is also more honest.
+Some failures deserve friction.
 
-Reliability is not making every failure disappear. Sometimes reliability is making the right failure impossible to ignore.
+Reliability is partly the discipline of telling the user when the system is guessing.
 
 Thumbnail: `assets/thumbnails/png/linkedin-02-fallbacks.png`
-
